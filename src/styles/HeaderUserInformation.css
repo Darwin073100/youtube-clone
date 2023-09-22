@@ -1,0 +1,27 @@
+.header-user-information{
+    display: flex;
+    gap: 12px;
+}
+
+.header-user-information img{
+    width: 35px;
+    height: 35px;
+}
+.header-user-information .btn-user{
+    background-color: transparent;
+    border: none;
+}
+.header-user-information div{
+    position: relative;
+}
+
+.number-notify{
+    background-color: red;
+    color: var(--color-white);
+    border-radius: 4px;
+    padding: 0px 2px 0px 2px;
+    right: 5px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 3;
+}

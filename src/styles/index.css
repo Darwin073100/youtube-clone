@@ -22,3 +22,28 @@ body {
   background-color: var(--color-black-1);
 }
 
+.btn-header{
+  background-color: var(--color-black-1);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.btn-header:hover{
+  background-color: var(--color-black-2);
+}
+
+.btn-header-active{
+  background-color: var(--color-black-2);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.btn-header-active:hover{
+  background-color: var(--color-black-3);
+}
+
+.fa-1x{
+  font-size: 20px;
+}
