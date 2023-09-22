@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/HeaderUserInformation.css';
+import user from '../assets/images/user.svg';
 
 function HeaderUserInformation() {
   return (
@@ -10,7 +11,7 @@ function HeaderUserInformation() {
         <span className='number-notify'>9+</span>
       </div>
       <button className='btn-user'>
-        <img src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564400-account_81513.png" alt="user" />
+        <img src={user} alt="user" />
       </button>
     </div>
   )

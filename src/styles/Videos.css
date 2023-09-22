@@ -1,0 +1,47 @@
+.videos{
+    margin-top: 35px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,30%);
+    gap: 20px;
+    color: var(--color-white);
+}
+.video-image{
+    position: relative;
+    cursor: pointer;
+}
+.video-image span{
+    background-color: var(--color-black-1);
+    opacity: 75%;
+    position: absolute;
+    font-size: 14px;
+    z-index: 2;
+    right: 8px;
+    bottom: 6px;
+    padding: 0 4px 0 4px;
+    border-radius: 4px;
+}
+.video-image img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.video-title img{
+    width: 35px;
+    cursor: pointer;
+}
+
+.video-title{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    gap: 4px;
+}
+
+.video-information{
+    margin-left: 39px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(160, 160, 160);
+}
