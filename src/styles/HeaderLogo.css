@@ -1,9 +1,11 @@
 .header-logo{
     display: flex;
+    padding-left: 12px;
 }
 .btn-logo{
     background-color: transparent;
     border: none;
+    display: inline-block;
 }
 
 .btn-logo img{

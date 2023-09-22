@@ -8,6 +8,7 @@ import { VerticalMenu } from '../containers/VerticalMenu';
 import { ContendVideos } from '../containers/ContendVideos';
 import { Videos } from '../containers/Videos';
 import { Shorts } from '../containers/Shorts';
+import { FavoriteOptions } from '../containers/FavoriteOptions';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
         <Contend>
             <VerticalMenu/>
             <ContendVideos>
+                <FavoriteOptions/>
                 <Videos/>
                 <Shorts/>
             </ContendVideos>

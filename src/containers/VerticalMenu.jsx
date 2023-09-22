@@ -1,8 +1,11 @@
 import React from 'react';
+import { OptionClose } from './OptionClose';
 
 function VerticalMenu() {
   return (
-    <div>VerticalMenu</div>
+    <React.Fragment>
+      <OptionClose/>
+    </React.Fragment>
   )
 }
 

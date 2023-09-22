@@ -1,0 +1,32 @@
+.favorite-options{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.options{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: stretch;
+    gap: 10px;
+}
+
+.btn-favorite{
+    background-color: var(--color-black-2);
+    border: none;
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 4px;
+}
+.btn-favorite-active{
+    background-color: var(--color-white);
+    border: none;
+    color: var(--color-dark);
+    border-radius: 8px;
+    padding: 4px;
+}
+.btn-favorite:hover{
+    background-color: var(--color-black-3);
+}
