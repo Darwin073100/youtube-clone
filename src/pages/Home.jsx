@@ -9,8 +9,8 @@ import { ContendVideos } from '../containers/ContendVideos';
 import { Videos } from '../containers/Videos';
 import { Shorts } from '../containers/Shorts';
 import { FavoriteOptions } from '../containers/FavoriteOptions';
-import '../styles/Home.css';
 import { Separator } from '../components/Separator';
+import '../styles/Home.css';
 
 function Home() {
   return (

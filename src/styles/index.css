@@ -21,6 +21,19 @@ body {
   font-family: sans-serif;
   background-color: var(--color-black-1);
 }
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-black-1);
+  padding: 4px;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-black-3);
+  border-radius: 20px;
+}
 
 .btn-header{
   background-color: var(--color-black-1);
