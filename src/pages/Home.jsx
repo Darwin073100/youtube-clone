@@ -9,10 +9,12 @@ import { ContendVideos } from '../containers/ContendVideos';
 import { Videos } from '../containers/Videos';
 import { Shorts } from '../containers/Shorts';
 import { FavoriteOptions } from '../containers/FavoriteOptions';
+import '../styles/Home.css';
+import { Separator } from '../components/Separator';
 
 function Home() {
   return (
-    <React.Fragment>
+    <div className='home'>
         <Header>
             <HeaderLogo/>
             <HeaderSearched />
@@ -22,12 +24,14 @@ function Home() {
             <VerticalMenu/>
             <ContendVideos>
                 <FavoriteOptions/>
+                <Separator/>
                 <Videos/>
                 <Shorts/>
+                <Videos/>
             </ContendVideos>
         </Contend>
-    </React.Fragment>
+    </div>
   )
 }
 
-export default Home
+export {Home};

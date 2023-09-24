@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/App.css';
-import { OptionClose } from './containers/OptionClose';
-import Home from './pages/Home';
+import { Home } from './pages/Home';
 
 function App (){
   return (
@@ -11,4 +10,4 @@ function App (){
   );
 }
 
-export default App;
+export { App };

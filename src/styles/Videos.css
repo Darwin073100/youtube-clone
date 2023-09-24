@@ -1,5 +1,6 @@
 .videos{
-    margin-top: 35px;
+    padding-left: 90px;
+    margin: 30px 0 30px 0;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit,30%);

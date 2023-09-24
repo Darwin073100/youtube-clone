@@ -1,6 +1,10 @@
 .option-close{
     width: 80px;
+    height: 100vh;
     padding: 4px;
+    position: fixed;
+    z-index: 5;
+    background-color: var(--color-black-1);
 }
 .option-close-item{
     color: var(--color-white);

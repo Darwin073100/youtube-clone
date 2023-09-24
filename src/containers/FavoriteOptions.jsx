@@ -17,7 +17,6 @@ function FavoriteOptions() {
             <button className='btn-favorite'>Favorite 10</button>
             <button className='btn-favorite'>Favorite 11</button>
             <button className='btn-favorite'>Favorite 12</button>
-            <button className='btn-favorite'>Favorite 13</button>
         </div>
         <button className='btn-header fa fa-angle-right fa-1x text-light'
             data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Siguiente"></button>
